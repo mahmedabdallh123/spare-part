@@ -35,7 +35,7 @@ except Exception:
     GITHUB_AVAILABLE = False
 
 APP_CONFIG = {
-    "APP_TITLE": "نظام إدارة الصيانة - CMMS",
+    "APP_TITLE": "قطع الغيار - CMMS",
     "APP_ICON": "🏭",
     "REPO_NAME": "mahmedabdallh123/spare-part",
     "BRANCH": "main",
