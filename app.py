@@ -37,7 +37,7 @@ except Exception:
 APP_CONFIG = {
     "APP_TITLE": "نظام إدارة الصيانة - CMMS",
     "APP_ICON": "🏭",
-    "REPO_NAME": "mahmedabdallh123/Elqds",
+    "REPO_NAME": "mahmedabdallh123/spare-part",
     "BRANCH": "main",
     "FILE_PATH": "1.xlsx",
     "LOCAL_FILE": "1.xlsx",
@@ -57,8 +57,8 @@ IMAGES_FOLDER = APP_CONFIG["IMAGES_FOLDER"]
 EQUIPMENT_CONFIG_FILE = "equipment_config.json"
 
 GITHUB_EXCEL_URL = f"https://github.com/{APP_CONFIG['REPO_NAME'].split('/')[0]}/{APP_CONFIG['REPO_NAME'].split('/')[1]}/raw/{APP_CONFIG['BRANCH']}/{APP_CONFIG['FILE_PATH']}"
-GITHUB_USERS_URL = "https://raw.githubusercontent.com/mahmedabdallh123/Elqds/refs/heads/main/users.json"
-GITHUB_REPO_USERS = "mahmedabdallh123/Elqds"
+GITHUB_USERS_URL = "https://raw.githubusercontent.com/mahmedabdallh123/spare-part/refs/heads/main/users.json"
+GITHUB_REPO_USERS = "mahmedabdallh123/spare-part"
 
 # ------------------------------- دوال إدارة الصور -------------------------------
 def ensure_images_folder():
